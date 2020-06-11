@@ -1,0 +1,21 @@
+PHP GET and POST Report
+by Adan Calderon
+Tools used:
+       Xampp is a local test server I used to "test" (forgive redundancy) the php scripts.
+       cURL for PHP library is used.
+
+This report tends to capture and document the amount of time spent on the assignment.
+
+Hours Spent on the Assignment: 2
+Hours Spent on Research: 4
+
+Total Hours Spent: 6
+
+
+
+RESOURCES:
+https://www.php.net/docs.php
+https://devdocs.io/
+https://github.com/php-curl-class/php-curl-class
+http://dummy.restapiexample.com/api/v1/employees
+http://dummy.restapiexample.com/api/v1/create

@@ -1,10 +1,7 @@
 <!--/****-->
 <!-- Adan David Sierra Calderon -->
 <!-- Date: June 11, 2020-->
-<!-- This webpage is for applicants to the "Software Development" role at XOMBO.
-
-In order to assess your ability to interact with 3rd-party APIs using PHP, please complete the following tasks:
-
+<!-- In order to assess your ability to interact with 3rd-party APIs using PHP, please complete the following tasks:
 1.Create a PHP script.
 2.Have the script initiate an HTTP(S) request to at least one RESTful API. For the purposes of this assignment, you may use the following REST resource(s) or use one of your choosing:
 https://jsonplaceholder.typicode.com/photos
@@ -19,7 +16,7 @@ http://dummy.restapiexample.com/
 
 function getFromApi($url){ // GET method to access all employees data using rest /employees
 
-    $channel = curl_init($url); // this starts a new cURL session
+    $channel = curl_init($url); // this starts a new cURL session with url parameter provided
 
 
     //set-up URL with according options
@@ -63,7 +60,7 @@ function postToApi($url){       // POST method to API creating an employee data 
 
 
     //Set-up Curl session with appropiate options
-    curl_setopt($channel, CURLOPT_URL,$url);
+    curl_setopt($channel, CURLOPT_URL,$url);   //setups channel with the url provided in the parameter
     curl_setopt($channel, CURLOPT_POST,1);
 
     //Value to be posted with this Json format:{"name":"test","salary":"123","age":"23"}
